@@ -1,0 +1,1019 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/"
+    found: "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 7/15/2026 11:18:11 AM.
+      
+      Project "C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.67
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/4.4.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.3.296.0/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/anaconda3/Scripts/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/DrMemory/bin64/"
+      - "C:/Perl64/site/bin/"
+      - "C:/Perl64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/utils/"
+      - "C:/Program Files/TortoiseSVN/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/TortoiseHg/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/mingw32/bin/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.3.296.0/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/anaconda3/Scripts/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/DrMemory/bin64/"
+      - "C:/Perl64/site/bin/"
+      - "C:/Perl64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/utils/"
+      - "C:/Program Files/TortoiseSVN/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/TortoiseHg/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/mingw32/bin/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lld-link"
+      - "C:/VulkanSDK/1.3.296.0/Bin/lld-link.com"
+      - "C:/VulkanSDK/1.3.296.0/Bin/lld-link.exe"
+      - "C:/VulkanSDK/1.3.296.0/Bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/ProgramData/anaconda3/Scripts/lld-link.com"
+      - "C:/ProgramData/anaconda3/Scripts/lld-link.exe"
+      - "C:/ProgramData/anaconda3/Scripts/lld-link"
+      - "C:/mingw64/bin/lld-link.com"
+      - "C:/mingw64/bin/lld-link.exe"
+      - "C:/mingw64/bin/lld-link"
+      - "C:/Program Files/DrMemory/bin64/lld-link.com"
+      - "C:/Program Files/DrMemory/bin64/lld-link.exe"
+      - "C:/Program Files/DrMemory/bin64/lld-link"
+      - "C:/Perl64/site/bin/lld-link.com"
+      - "C:/Perl64/site/bin/lld-link.exe"
+      - "C:/Perl64/site/bin/lld-link"
+      - "C:/Perl64/bin/lld-link.com"
+      - "C:/Perl64/bin/lld-link.exe"
+      - "C:/Perl64/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/utils/lld-link.com"
+      - "C:/utils/lld-link.exe"
+      - "C:/utils/lld-link"
+      - "C:/Program Files/TortoiseSVN/bin/lld-link.com"
+      - "C:/Program Files/TortoiseSVN/bin/lld-link.exe"
+      - "C:/Program Files/TortoiseSVN/bin/lld-link"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/doxygen/bin/lld-link.com"
+      - "C:/Program Files/doxygen/bin/lld-link.exe"
+      - "C:/Program Files/doxygen/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link"
+      - "C:/Program Files/TortoiseHg/lld-link.com"
+      - "C:/Program Files/TortoiseHg/lld-link.exe"
+      - "C:/Program Files/TortoiseHg/lld-link"
+      - "C:/Program Files/TortoiseGit/bin/lld-link.com"
+      - "C:/Program Files/TortoiseGit/bin/lld-link.exe"
+      - "C:/Program Files/TortoiseGit/bin/lld-link"
+      - "C:/mingw32/bin/lld-link.com"
+      - "C:/mingw32/bin/lld-link.exe"
+      - "C:/mingw32/bin/lld-link"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.3.296.0/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/anaconda3/Scripts/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/DrMemory/bin64/"
+      - "C:/Perl64/site/bin/"
+      - "C:/Perl64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/utils/"
+      - "C:/Program Files/TortoiseSVN/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/TortoiseHg/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/mingw32/bin/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.3.296.0/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/anaconda3/Scripts/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/DrMemory/bin64/"
+      - "C:/Perl64/site/bin/"
+      - "C:/Perl64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/utils/"
+      - "C:/Program Files/TortoiseSVN/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/TortoiseHg/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/mingw32/bin/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/mt"
+      - "C:/VulkanSDK/1.3.296.0/Bin/mt.com"
+      - "C:/VulkanSDK/1.3.296.0/Bin/mt.exe"
+      - "C:/VulkanSDK/1.3.296.0/Bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/ProgramData/anaconda3/Scripts/mt.com"
+      - "C:/ProgramData/anaconda3/Scripts/mt.exe"
+      - "C:/ProgramData/anaconda3/Scripts/mt"
+      - "C:/mingw64/bin/mt.com"
+      - "C:/mingw64/bin/mt.exe"
+      - "C:/mingw64/bin/mt"
+      - "C:/Program Files/DrMemory/bin64/mt.com"
+      - "C:/Program Files/DrMemory/bin64/mt.exe"
+      - "C:/Program Files/DrMemory/bin64/mt"
+      - "C:/Perl64/site/bin/mt.com"
+      - "C:/Perl64/site/bin/mt.exe"
+      - "C:/Perl64/site/bin/mt"
+      - "C:/Perl64/bin/mt.com"
+      - "C:/Perl64/bin/mt.exe"
+      - "C:/Perl64/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/utils/mt.com"
+      - "C:/utils/mt.exe"
+      - "C:/utils/mt"
+      - "C:/Program Files/TortoiseSVN/bin/mt.com"
+      - "C:/Program Files/TortoiseSVN/bin/mt.exe"
+      - "C:/Program Files/TortoiseSVN/bin/mt"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.com"
+      - "C:/Program Files/Microsoft VS Code/bin/mt.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/doxygen/bin/mt.com"
+      - "C:/Program Files/doxygen/bin/mt.exe"
+      - "C:/Program Files/doxygen/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt"
+      - "C:/Program Files/TortoiseHg/mt.com"
+      - "C:/Program Files/TortoiseHg/mt.exe"
+      - "C:/Program Files/TortoiseHg/mt"
+      - "C:/Program Files/TortoiseGit/bin/mt.com"
+      - "C:/Program Files/TortoiseGit/bin/mt.exe"
+      - "C:/Program Files/TortoiseGit/bin/mt"
+      - "C:/mingw32/bin/mt.com"
+      - "C:/mingw32/bin/mt.exe"
+      - "C:/mingw32/bin/mt"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.3.296.0/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/anaconda3/Scripts/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/DrMemory/bin64/"
+      - "C:/Perl64/site/bin/"
+      - "C:/Perl64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/utils/"
+      - "C:/Program Files/TortoiseSVN/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/TortoiseHg/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/mingw32/bin/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.3.296.0/Bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/ProgramData/anaconda3/Scripts/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/DrMemory/bin64/"
+      - "C:/Perl64/site/bin/"
+      - "C:/Perl64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/utils/"
+      - "C:/Program Files/TortoiseSVN/bin/"
+      - "C:/Program Files/Microsoft VS Code/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/TortoiseHg/"
+      - "C:/Program Files/TortoiseGit/bin/"
+      - "C:/mingw32/bin/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/bin/"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/sbin/"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/"
+      - "C:/Program Files (x86)/OpenGLIntro/bin/"
+      - "C:/Program Files (x86)/OpenGLIntro/sbin/"
+      - "C:/Program Files (x86)/OpenGLIntro/"
+    searched_directories:
+      - "C:/VulkanSDK/1.3.296.0/Bin/rc.com"
+      - "C:/VulkanSDK/1.3.296.0/Bin/rc.exe"
+      - "C:/VulkanSDK/1.3.296.0/Bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/ProgramData/anaconda3/Scripts/rc.com"
+      - "C:/ProgramData/anaconda3/Scripts/rc.exe"
+      - "C:/ProgramData/anaconda3/Scripts/rc"
+      - "C:/mingw64/bin/rc.com"
+      - "C:/mingw64/bin/rc.exe"
+      - "C:/mingw64/bin/rc"
+      - "C:/Program Files/DrMemory/bin64/rc.com"
+      - "C:/Program Files/DrMemory/bin64/rc.exe"
+      - "C:/Program Files/DrMemory/bin64/rc"
+      - "C:/Perl64/site/bin/rc.com"
+      - "C:/Perl64/site/bin/rc.exe"
+      - "C:/Perl64/site/bin/rc"
+      - "C:/Perl64/bin/rc.com"
+      - "C:/Perl64/bin/rc.exe"
+      - "C:/Perl64/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/utils/rc.com"
+      - "C:/utils/rc.exe"
+      - "C:/utils/rc"
+      - "C:/Program Files/TortoiseSVN/bin/rc.com"
+      - "C:/Program Files/TortoiseSVN/bin/rc.exe"
+      - "C:/Program Files/TortoiseSVN/bin/rc"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.com"
+      - "C:/Program Files/Microsoft VS Code/bin/rc.exe"
+      - "C:/Program Files/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/doxygen/bin/rc.com"
+      - "C:/Program Files/doxygen/bin/rc.exe"
+      - "C:/Program Files/doxygen/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc"
+      - "C:/Program Files/TortoiseHg/rc.com"
+      - "C:/Program Files/TortoiseHg/rc.exe"
+      - "C:/Program Files/TortoiseHg/rc"
+      - "C:/Program Files/TortoiseGit/bin/rc.com"
+      - "C:/Program Files/TortoiseGit/bin/rc.exe"
+      - "C:/Program Files/TortoiseGit/bin/rc"
+      - "C:/mingw32/bin/rc.com"
+      - "C:/mingw32/bin/rc.exe"
+      - "C:/mingw32/bin/rc"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/pablo.rodrguez/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/pablo.rodrguez/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/bin/rc.com"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/bin/rc.exe"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/bin/rc"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/sbin/rc.com"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/sbin/rc.exe"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/sbin/rc"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/rc.com"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/rc.exe"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/rc"
+      - "C:/Program Files (x86)/OpenGLIntro/bin/rc.com"
+      - "C:/Program Files (x86)/OpenGLIntro/bin/rc.exe"
+      - "C:/Program Files (x86)/OpenGLIntro/bin/rc"
+      - "C:/Program Files (x86)/OpenGLIntro/sbin/rc.com"
+      - "C:/Program Files (x86)/OpenGLIntro/sbin/rc.exe"
+      - "C:/Program Files (x86)/OpenGLIntro/sbin/rc"
+      - "C:/Program Files (x86)/OpenGLIntro/rc.com"
+      - "C:/Program Files (x86)/OpenGLIntro/rc.exe"
+      - "C:/Program Files (x86)/OpenGLIntro/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.3.296.0\\Bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ProgramData\\anaconda3\\Scripts"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\DrMemory\\bin64"
+        - "C:\\Perl64\\site\\bin"
+        - "C:\\Perl64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\utils"
+        - "C:\\Program Files\\TortoiseSVN\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Program Files\\TortoiseHg\\"
+        - "C:\\Program Files\\TortoiseGit\\bin"
+        - "C:\\mingw32\\bin"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\pablo.rodrguez\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenGLIntro"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64"
+        - "C:/Program Files (x86)/OpenGLIntro"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2"
+      binary: "C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03b77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 7/15/2026 11:18:14 AM.
+        
+        Project "C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\CMakeScratch\\TryCompile-uakaw2\\cmTC_03b77.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\CMakeScratch\\TryCompile-uakaw2\\Debug\\".
+          Creating directory "cmTC_03b77.dir\\Debug\\cmTC_03b77.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_03b77.dir\\Debug\\cmTC_03b77.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_03b77.dir\\Debug\\cmTC_03b77.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_03b77.dir\\Debug\\\\" /Fd"cmTC_03b77.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\pablo.rodrguez\\Desktop\\cmake-4.4.0-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_03b77.dir\\Debug\\\\" /Fd"cmTC_03b77.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\pablo.rodrguez\\Desktop\\cmake-4.4.0-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\CMakeScratch\\TryCompile-uakaw2\\Debug\\cmTC_03b77.exe" /INCREMENTAL /ILK:"cmTC_03b77.dir\\Debug\\cmTC_03b77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2/Debug/cmTC_03b77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2/Debug/cmTC_03b77.lib" /MACHINE:X64  /machine:x64 cmTC_03b77.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_03b77.vcxproj -> C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\CMakeScratch\\TryCompile-uakaw2\\Debug\\cmTC_03b77.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_03b77.dir\\Debug\\cmTC_03b77.tlog\\unsuccessfulbuild".
+          Touching "cmTC_03b77.dir\\Debug\\cmTC_03b77.tlog\\cmTC_03b77.lastbuildstate".
+        Done Building Project "C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\CMakeScratch\\TryCompile-uakaw2\\cmTC_03b77.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\pablo.rodrguez\\Desktop\\cs200\\assignment-4-2-opengl-PabloRodriguezDigipen\\CMakeFiles\\CMakeScratch\\TryCompile-uakaw2\\Debug\\cmTC_03b77.exe" /INCREMENTAL /ILK:"cmTC_03b77.dir\\Debug\\cmTC_03b77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2/Debug/cmTC_03b77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/CMakeScratch/TryCompile-uakaw2/Debug/cmTC_03b77.lib" /MACHINE:X64  /machine:x64 cmTC_03b77.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Users/pablo.rodrguez/Desktop/cmake-4.4.0-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

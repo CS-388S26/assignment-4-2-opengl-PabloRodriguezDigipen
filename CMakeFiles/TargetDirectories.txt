@@ -1,0 +1,3 @@
+C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/OpenGLIntro.dir
+C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/ALL_BUILD.dir
+C:/Users/pablo.rodrguez/Desktop/cs200/assignment-4-2-opengl-PabloRodriguezDigipen/CMakeFiles/ZERO_CHECK.dir
