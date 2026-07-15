@@ -47,6 +47,8 @@ int main() {
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
+  glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+
   while (glfwWindowShouldClose(window) == 0) {
     // clear the window
     glClear(GL_COLOR_BUFFER_BIT);
@@ -68,15 +70,15 @@ int main() {
     glColor4f(0.f, 0.f, 1.f, 0.f);
     glVertex3f(-0.5f, -0.5f, 0.0f);
 
-    glTexCoord2f(1, 0);
+    glTexCoord2f(2, 0);
     glColor4f(0.f, 1.f, 1.f, 0.f);
     glVertex3f(0.5f, -0.5f, 0.0f);
 
-    glTexCoord2f(0, 1);
+    glTexCoord2f(0, 2);
     glColor4f(1.f, 0.f, 1.f, 0.f);
     glVertex3f(-0.5f, 0.5f, 0.0f);
 
-    glTexCoord2f(1, 1);
+    glTexCoord2f(2, 2);
     glColor4f(0.f, 1.f, 0.f, 0.f);
     glVertex3f(0.5f, 0.5f, 0.0f);
 
