@@ -17,7 +17,7 @@ int main() {
     return -1;
   }
 
-  window = glfwCreateWindow(800, 600, "A Morpho", nullptr, nullptr);
+  window = glfwCreateWindow(800, 600, "A normal window", nullptr, nullptr);
 
   // check if window was created successfully
   if (window == nullptr) {
@@ -33,17 +33,21 @@ int main() {
     return -1;
   }
 
+  //enable the 2D textures
   glEnable(GL_TEXTURE_2D);
 
   unsigned int textureID;
   glGenTextures(1, &textureID);
   glBindTexture(GL_TEXTURE_2D, textureID);
 
+  //load the texture
   int width, height, channels;
   unsigned char* pixels = stbi_load("texture1.png", &width, &height, &channels, 4);
 
+  //get the image on OpneGL
   glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, pixels);
 
+  //set parameters for the texture
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
@@ -53,35 +57,54 @@ int main() {
     // clear the window
     glClear(GL_COLOR_BUFFER_BIT);
 
-    glClearColor(1.f, 0.f, 0.f, 1.f);
+    //default color for background
+    glClearColor(0.f, 0.f, 0.f, 1.f);
 
+    //start drawing striped lines
     glBegin(GL_LINE_STRIP);
 
+    //set the color of the lines
     glColor4f(1.f, 1.f, 1.f, 0.f);
+    //three vertices for two lines
     glVertex3f(0.6f, -0.9f, 0.0f);
     glVertex3f(-0.7f, -0.2f, 0.0f);
     glVertex3f(0.0f, 0.4f, 0.0f);
 
+    //end drawing lines
     glEnd();
 
+    //begin drawing striped triangles
     glBegin(GL_TRIANGLE_STRIP);
 
+    //set the u and v
     glTexCoord2f(0, 0);
+    //set the color of the vertex
     glColor4f(0.f, 0.f, 1.f, 0.f);
+    //create the vertex
     glVertex3f(-0.5f, -0.5f, 0.0f);
 
+    //set the u and v
     glTexCoord2f(2, 0);
+    //set the color of the vertex
     glColor4f(0.f, 1.f, 1.f, 0.f);
+    //create the vertex
     glVertex3f(0.5f, -0.5f, 0.0f);
 
+    //set the u and v
     glTexCoord2f(0, 2);
+    //set the color of the vertex
     glColor4f(1.f, 0.f, 1.f, 0.f);
+    //create the vertex
     glVertex3f(-0.5f, 0.5f, 0.0f);
 
+    //set the u and v
     glTexCoord2f(2, 2);
+    //set the color of the vertex
     glColor4f(0.f, 1.f, 0.f, 0.f);
+    //create the vertex
     glVertex3f(0.5f, 0.5f, 0.0f);
 
+    //end drawing triangles
     glEnd();
 
     // swap buffer
